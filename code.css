@@ -79,7 +79,7 @@ color:#000000;
   font-size: 12px;
   margin-top: 3rem;
   padding: 7px;
-    min-height: 40rem;
+    min-height: 45rem;
   background-color:#ceb7e4;
   color:#000000
 }
@@ -131,7 +131,7 @@ color:#000000;
 color:#000000;
   margin-top: 3rem;
   padding-right: 20px;
-  min-height: 40rem;
+  min-height: 45rem;
 }
 @media (max-width: 1200px) {
   .left{
