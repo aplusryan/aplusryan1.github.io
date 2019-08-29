@@ -2,7 +2,9 @@ body {
   background-color: #e4ceb7;
 }
 
-
+.bottomSection {
+  height: 40rem;
+}
 .jumbotron {
   margin-top: 0;
   padding-right: 0;
@@ -76,7 +78,7 @@ color:#000000;
   align-items : center;
   font-size: 12px;
   margin-top: 3rem;
-  padding: 15px;
+  padding: 7px;
     min-height: 40rem;
   background-color:#ceb7e4;
   color:#000000
