@@ -1,0 +1,81 @@
+.jumbotron {
+  margin-top: 0;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  background-image: url('v2PhotoBanner.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 740px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+
+}
+
+.jumbotron h1 {
+  font-family: 'Prata', serif;
+  font-size: 74px;
+  font-weight: 400;
+  margin: 0;
+  color: #e4ceb7;
+}
+
+body{
+  background-color: #e4b8b7;
+}
+
+.jumbotron2 {
+
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-color: #b7e3e4;
+  color: #787777;
+  height: 200px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+
+}
+
+
+
+
+.jumbotron2 {
+  font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 16px;
+padding: 10px;
+color:#000000;
+}
+
+.photoGallery {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+footer {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  font-size: 22px;
+  padding: 20px 0;
+  background-color: #222222;
+  color: #787777;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}

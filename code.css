@@ -1,0 +1,186 @@
+body {
+  background-color: #e4ceb7;
+}
+
+
+.jumbotron {
+  margin-top: 0;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  background-image: url('codingBannerPic.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+
+}
+
+.jumbotron h1 {
+  font-family: 'Prata', serif;
+  font-size: 74px;
+  font-weight: 400;
+  margin: 0;
+  color: #e4ceb7;
+}
+
+.jumbotron2 {
+
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-color: #e4b8b7;
+  color: #787777;
+  height: 30rem;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+
+}
+
+.jumbotron2 {
+  font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 20px;
+padding: 10px;
+color:#000000;
+}
+
+
+
+.left{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  margin-top: 3rem;
+  padding: 20px;
+    min-height: 40rem;
+  background-color:#ceb7e4;
+  color:#000000
+}
+
+.left2{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  margin-top: 3rem;
+  padding: 20px;
+  min-height: 39.8rem;
+  background-color:#ceb7e4;
+  color:#000000;
+  background-image: url(swiftBKGPIC.png);
+}
+
+.left3{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  margin-top: 3rem;
+  padding: 15px;
+    min-height: 40rem;
+  background-color:#ceb7e4;
+  color:#000000
+}
+
+.intro h2{
+  font-family: 'Lato', serif;
+  font weight: 300;
+  font-size: 40px;
+  color:#000000;
+}
+
+.intro p {
+  font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 16px;
+padding: 20px;
+color:#000000;
+}
+
+.right{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#b7e2e4;
+  background-image: url("newArduinoBackPic.png");
+color:#000000;
+  margin-top: 3rem;
+  padding-right: 20px;
+  min-height: 40rem;
+}
+
+.right2{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#b7e2e4;
+color:#000000;
+  margin-top: 3rem;
+  padding-right: 20px;
+  min-height: 40rem;
+}
+
+.right3{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#b7e2e4;
+  background-image: url("htmlPICCC.png");
+color:#000000;
+  margin-top: 3rem;
+  padding-right: 20px;
+  min-height: 40rem;
+}
+@media (max-width: 1200px) {
+  .left{
+    height:50%
+  }
+  .right{
+    height:50%
+  }
+}
+
+.arduinoLinkPic {
+  padding: 60px;
+}
+
+.githubLinkPic {
+  padding:60px;
+}
+
+.swiftPic {
+  padding:60px;
+}
+
+.htmlCodingLogo {
+  padding: 60px;
+}
+
+footer {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  font-size: 22px;
+  padding: 20px 0;
+  background-color: #222222;
+  color: #787777;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.bottomStuff p {
+  font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 17px;
+}

@@ -1,0 +1,174 @@
+
+.jumbotron {
+
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  background-image: url('bannerPic.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+
+}
+
+section.jumbotron {
+  animation-duration: 2.2s;
+}
+.jumbotron h1 {
+  font-family: 'Prata', serif;
+  font-size: 74px;
+  font-weight: 400;
+  margin: 0;
+  color: #b7e3e4;
+  text-align: center;
+}
+
+body {
+  background-color: #b7e3e4;
+}
+
+.intro{
+  height:100%
+}
+
+.left{
+  margin-left: 5;
+  padding-left: 30px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#e4ceb7;
+  height : 100%;
+  width : 50%
+  color : #a6957e;
+  min-height: 40rem;
+
+}
+.right{
+  margin-right: 20;
+  padding-right: 30px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#e4b8b7;
+  height : 100%;
+  width : 50%
+  color : #a6957e;
+    min-height: 40rem;
+}
+
+.left2 {
+  margin-top: 3rem;
+  margin-left: 5;
+  padding-left: 30px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#e4b8b7;
+  height : 100%;
+  width : 50%
+  color : #a6957e;
+  min-height: 40rem;
+
+}
+
+.right2{
+  margin-top: 3rem;
+  padding-right: 30px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#e4ceb7;
+  height : 100%;
+  width : 50%
+  color : #a6957e;
+    min-height: 40rem;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  .left{
+    height:50%
+  }
+  .right{
+    height:50%
+  }
+}
+
+.intro p {
+  font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 16px;
+padding: 20px;
+color:#000000;
+}
+
+.intro h2 {
+font-family: 'Lato', serif;
+font weight: 300;
+font-size: 40px;
+color:#000000;
+}
+
+.violinLinkPic {
+  margin-right: 60px;
+}
+
+.arduinoLinkPic {
+  margin-left: 60px;
+}
+
+.githubLinkPic {
+margin-left: 2rem;
+}
+
+.htmlLogoPic{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.cssLogoPic {
+  .margin-left: 30px;
+  .margin-right: 30px;
+}
+
+.swiftLogoPic {
+  .margin-left: 60px;
+  .margin-right: 30px;
+}
+
+footer {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  font-size: 22px;
+  padding: 20px 0;
+  background-color: #222222;
+  color: #787777;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.bottomStuff p {
+  font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 17px;
+}
